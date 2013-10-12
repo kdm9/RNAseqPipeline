@@ -1,4 +1,7 @@
 #!/bin/bash
+set -o nounset
+set -o errexit
+
 
 Project="Project_SN700819R_0100_PCrisp_RSB_Arabidopsis_mRNA"
 WSDir="/home/pete/workspace"

@@ -1,4 +1,7 @@
 #!/bin/bash
+set -o nounset
+set -o errexit
+
 
 # source common function script
 scriptdir="$(dirname $(readlink -f $0))"

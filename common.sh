@@ -1,4 +1,10 @@
 #!/bin/bash
+set -o nounset
+set -o errexit
+
+set -o nounset
+set -o errexit
+
 
 function getDefaultOptions () {
 	while getopts :i:o:a: flag
